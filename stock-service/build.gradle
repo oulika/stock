@@ -37,7 +37,16 @@ dependencies {
 // https://mvnrepository.com/artifact/e-iceblue/spire.pdf.free
   implementation 'e-iceblue:spire.pdf.free:5.1.0'
   implementation 'net.java.dev.jna:jna-platform:5.5.0'
-  implementation 'org.apache.pdfbox:pdfbox:2.0.24'
+  // https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox
+  implementation 'org.apache.pdfbox:pdfbox:2.0.12'
+
+// https://mvnrepository.com/artifact/org.apache.pdfbox/fontbox
+  implementation 'org.apache.pdfbox:fontbox:2.0.12'
+// https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox-tools
+  implementation 'org.apache.pdfbox:pdfbox-tools:2.0.12'
+// https://mvnrepository.com/artifact/com.baidu.aip/java-sdk
+  implementation 'com.baidu.aip:java-sdk:4.8.0'
+
   runtimeOnly 'mysql:mysql-connector-java'
   developmentOnly 'org.springframework.boot:spring-boot-devtools'
   testImplementation 'org.springframework.boot:spring-boot-starter-test'
